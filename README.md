@@ -3,7 +3,15 @@
 It's my first time properly playing with Vue 3's Composition API here.
 
 My own personal TODOs:
-- [x] ssg
+
+- [x] `findProducts` implementation
+- [x] Debounce
+- [x] Loading and error states (I chose to forgoe `alert`)
+- [ ] Style it up with some product cards
+  - [ ] Thumbnails
+  - [ ] Price
+  - [ ] Discount sticket
+- [ ] Load more / pagination
 
 Forked README below 👇🏻
 
