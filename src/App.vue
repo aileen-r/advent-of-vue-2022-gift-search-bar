@@ -16,7 +16,15 @@ const findProducts = async term => {
   }
 };
 
-watch(searchTerm, newTerm => findProducts(newTerm));
+const debounce = (func, timeout = 300) => {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => { func.apply(this, args); }, timeout);
+  };
+}
+
+watch(searchTerm, debounce(newTerm => findProducts(newTerm)));
 </script>
 
 <template>
