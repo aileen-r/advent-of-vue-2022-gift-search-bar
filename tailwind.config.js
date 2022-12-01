@@ -5,6 +5,8 @@ module.exports = {
     colors: {
       green: '#42b883',
       'gray-dark': '#0f172a',
+      danger: '#c44141',
+      'danger-light': '#fef2f2'
     },
   },
 }

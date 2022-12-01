@@ -1,4 +1,11 @@
-# Advent Of Vue 2022
+# Advent Of Vue 2022 - Gift Search Bar
+
+It's my first time properly playing with Vue 3's Composition API here.
+
+My own personal TODOs:
+- [x] ssg
+
+Forked README below 👇🏻
 
 ## If you didn't get here from an email, read this section! Skip it otherwise.
 
