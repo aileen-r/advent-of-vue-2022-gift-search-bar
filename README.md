@@ -10,8 +10,17 @@ My own personal TODOs:
 - [ ] Style it up with some product cards
   - [ ] Thumbnails
   - [ ] Price
-  - [ ] Discount sticket
+  - [ ] Discount sticker
+  - [ ] Star rating
 - [ ] Load more / pagination
+- [ ] No results
+
+What I learned:
+- composition API basics
+  - `reference` vs `ref`
+  - SFC `<script setup>`
+- some TailwindCSS basics
+  - how to add and extend the colour palette
 
 Forked README below 👇🏻
 

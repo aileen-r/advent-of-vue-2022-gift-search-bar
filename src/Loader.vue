@@ -11,7 +11,7 @@
 .waveform {
   --uib-size: 40px;
   --uib-speed: 1s;
-  --uib-color: black;
+  --uib-color: #42b883;
   --uib-line-weight: 3.5px;
 
   display: flex;
