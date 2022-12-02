@@ -48,7 +48,7 @@ watch(searchTerm, debounce(newTerm => findProducts(newTerm)));
     <Loader v-else-if="isLoading" />
     <ul v-else class="list-none grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 px-3">
       <li v-for="product in products">
-        <Product :img="product.thumbnail" :title="product.title" :price="product.price" />
+        <Product :img="product.thumbnail" :title="product.title" :price="product.price" :rating="product.rating" />
       </li>
     </ul>
   </div>

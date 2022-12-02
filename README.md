@@ -8,10 +8,10 @@ My own personal TODOs:
 - [x] Debounce
 - [x] Loading and error states (I chose to forgoe `alert`)
 - [ ] Style it up with some product cards
-  - [ ] Thumbnails
-  - [ ] Price
+  - [x] Thumbnails
+  - [x] Price
   - [ ] Discount sticker
-  - [ ] Star rating
+  - [x] Star rating
 - [ ] Load more / pagination
 - [ ] No results
 
